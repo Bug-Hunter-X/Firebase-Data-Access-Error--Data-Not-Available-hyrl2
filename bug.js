@@ -1,0 +1,1 @@
+The Firebase SDK might throw an error if the data you are trying to access is not yet available or has not been fully loaded from the database. This can happen when you try to read data from a listener before the listener has received the data. For example, if you are using `onValue` listener, the data is only available after the listener has been triggered at least once.
